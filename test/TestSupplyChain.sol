@@ -11,6 +11,22 @@ contract TestSupplyChain {
 
     // buyItem
 
+
+    // function testBuyItem(string memory _name, uint _price) public {
+
+    //     SupplyChain supplyChain = SupplyChain(DeployedAddresses.SupplyChain());
+
+    //     string memory name = "book";
+    //     //uint  price = 1000;
+    //     uint sku;
+    //     uint price;
+    //     uint state;
+    //     address seller;
+    //     address buyer;
+    //     supplyChain.addItem(_name, _price);
+    //     (name, sku,  price,  state,  seller,  buyer) = supplyChain.fetchItem(0);
+    //     Assert.equal(name, _name, " Must be equal name of first item");
+    // }
     // test for failure if user does not send enough funds
     // test for purchasing an item that is not for Sale
 
